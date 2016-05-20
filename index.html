@@ -1,0 +1,16 @@
+<html>
+<head>
+    <script src="strictScript.js"></script>
+</head>
+<body>
+<script>
+
+</script>
+<h1>Hello, check the console. And set debugger to setInterval functions in strictScript.js</h1><br>
+<span>
+    The interval function is being executed every second, for each object: person, person2 and person3<br>
+    Notice that w/o using arrow function (person3), or casting this to self (person2) in strict mode this is created for<br>
+    each function call, that's why there is no access to age property in person class.
+</span>
+</body>
+</html>
