@@ -29,7 +29,7 @@ function modifyConst(someConst){
 
 const iamConst = 2;
 modifyConst(iamConst);
-console.log(iamConst);
+console.log(iamConst); // 2
 
 
 // no difference between let and var in global scope
