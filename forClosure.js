@@ -1,6 +1,6 @@
-for(var i = 0; i < 3; i++){
+for(var shad = 0; shad < 3; shad++){
     setTimeout( () => {
-        console.log("varClosure" + i); //varClosure3 3x
+        console.log("varClosure" + shad); //varClosure3 3x
     });
 }
 
