@@ -22,6 +22,15 @@ function f() {
 
 var z = f();
 
+function modifyConst(someConst){
+    someConst = "foo" + someConst;
+}
+
+
+const iamConst = 2;
+modifyConst(iamConst);
+console.log(iamConst);
+
 
 // no difference between let and var in global scope
 let me = 'go'; //globally scoped
