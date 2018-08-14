@@ -61,5 +61,8 @@ function byE40() {
         //nish is visible to the whole function
     };
 
+    console.log("nish" + nish); //nish is visible here :)
     //nish *is* visible out here
 };
+
+//console.log("nish" + nish); //nish is not visible here :)
