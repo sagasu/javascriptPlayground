@@ -18,7 +18,7 @@ for(let k = 0; k < 3; k++){
 }
 
 
-
+// scoping of different variables is different
 {
     var realm1 = 1;
     let realm2 = 1;
