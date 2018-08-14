@@ -5,16 +5,20 @@ function f() {
             // okay, block scoped name
             const x = "sneaky";
 
+            console.log(x);
             // error, const
             //x = "foo";
         }
         // okay, declared with `let`
         x = "bar";
-
+        console.log(x);
         // error, already declared in block
         //let x = "inner";
     }
 }
+
+
+//console.log(x); letConst.js:20 Uncaught ReferenceError: x is not defined
 
 var z = f();
 
