@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <p>checking differences in css for layout that looks this same</p>
+    <div>
+        <div class="columns">
+            <div >content</div>
+            <div >content</div>
+            <div >content</div>
+        </div>
+
+        <!-- this one implies in css that there are only 3 columns because of grid-template-columns and 3 parameters that we use
+             but the developer experience here is not eligned with a user experience...
+             because we in css let know the browser that there will be 3 columns browser will render this straight away as a 3 column experience...
+             not like in a first example where first div is loaded and takes entire row then second splits everything into 2 cols and 3rd finishes - so there is plenty of screen blinking
+        -->
+        <div class="columns2">
+            <div >content</div>
+            <div >content</div>
+            <div >content</div>
+        </div>
+    </div>
+</body>
+</html>
