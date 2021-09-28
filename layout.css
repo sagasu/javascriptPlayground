@@ -16,3 +16,13 @@
     grid-template-columns: repeat(var(--cols), 1fr);
     gap: 1em;
 }
+
+.columns4{
+    display: grid;
+    grid-template-columns: max-content min-content auto fit-content(800px);
+}
+
+.columns5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
